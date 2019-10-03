@@ -1,5 +1,5 @@
 const { HOST, PORT } = process.env;
-const diretorio = `http://${HOST}:${PORT}/imagens/`;
+const diretorio = `${HOST}/imagens/`;
 
 module.exports = () => [
   {
